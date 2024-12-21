@@ -430,12 +430,12 @@ body{
 .nav-bar-container img{
   height: 55px;
   width: 210px;
-  margin-left: 10px;
   margin-top: 6px;
 }
 .hamburger{
   float: right;
   margin-top: 3px;
+  margin-right: -3px;
 }
 .heading{
   background: #fff;
@@ -626,7 +626,7 @@ body{
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 1rem;
+    font-size: 15px;
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -777,6 +777,7 @@ body{
       }
       .slide p{
         width: 100%;
+        color: #333;
         font-size: 20px;
         text-underline-offset: 5px;
         word-spacing: 5px;
@@ -842,7 +843,7 @@ body{
         .dots {
           display: flex;
           justify-content: center;
-          margin-top: -200px;
+          margin-top: -30px;
           margin-bottom: 25px;
         }
         .dot {
@@ -859,7 +860,8 @@ body{
         }
         .slide p {
           width: 100%;
-          font-size: 24px; 
+          font-size: 1rem; 
+          color: #333;
           text-underline-offset: 5px;
           word-spacing: 5px;
           text-align: justify;

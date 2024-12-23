@@ -1026,6 +1026,7 @@ body{
           border-radius: 10px;
           width: 90%;
           max-width: 800px;
+          margin-bottom: -3px;
         }
         .counselling-section h1 {
           font-size: 1.8rem;

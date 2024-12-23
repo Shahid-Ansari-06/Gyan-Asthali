@@ -17,6 +17,9 @@ body{
 .nav-menu h2{
   display: none;
 }
+.nav-menu h5{
+  display: none;
+}
 .nav-bar-container img{
     height: 105px;
     width: 410px;
@@ -483,6 +486,10 @@ body{
 }
 .nav-menu .btn:hover {
   color: #4400ff;
+}
+.nav-menu h5{
+  text-align: center;
+  margin-top: 200px;
 }
 .nav-bar-container img{
   height: 55px;

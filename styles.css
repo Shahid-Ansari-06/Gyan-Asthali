@@ -227,7 +227,7 @@ body{
 }
 .school-content {
   max-width: 50%;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 .school-content h1 {
   color: #991f45;
@@ -267,7 +267,8 @@ body{
   background-color: transparent;
   border-radius: 10px;
   padding: 30px;
-  width: 200px;                 
+  width: 200px;  
+  margin-top: -50px;               
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   text-align: center;

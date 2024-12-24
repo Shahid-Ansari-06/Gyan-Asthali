@@ -1031,6 +1031,7 @@ body{
         .download-img img{
           width: 150px;
           margin-top: -10px;
+          margin-bottom: 5px;
         }
         .app-screenshot:hover .download-btn {
           opacity: 1;

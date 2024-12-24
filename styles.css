@@ -490,7 +490,7 @@ body{
 }
 .nav-menu h5{
   text-align: center;
-  margin-top: 150px;
+  margin-top: 160px;
 }
 .nav-bar-container img{
   height: 55px;
@@ -1030,6 +1030,7 @@ body{
         }
         .download-img img{
           width: 150px;
+          margin-top: -10px;
         }
         .app-screenshot:hover .download-btn {
           opacity: 1;

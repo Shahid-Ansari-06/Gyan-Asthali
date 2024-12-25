@@ -3,6 +3,14 @@ body{
     overflow-x: hidden;
     font-family: sans-serif;
 }
+::selection {
+  background-color: #22ff00;
+  color: #000;
+}
+::-moz-selection {
+  background-color: #22ff00;
+  color: #000;
+}
 @media (min-width: 1200px) {
 .hamburger{
   display: none;

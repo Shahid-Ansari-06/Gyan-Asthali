@@ -65,35 +65,7 @@ function countUp(elementId, endValue) {
   }
   
   window.onload = () => {
-    countUp('total-students', 3000);
-    countUp('total-teachers', 200); 
-    countUp('total-staff', 50);  
+    countUp('total-students', 1250);
+    countUp('total-teachers', 125); 
+    countUp('total-staff', 25);  
   };
-  
-  // For Slider
-  const slides = document.querySelectorAll('.slide');
-const dots = document.querySelectorAll('.dot');
-let currentIndex = 0;
-
-function updateSlider(index) {
-  const slider = document.querySelector('.slider');
-  slider.style.transform = `translateX(-${index * 100}%)`;
-  dots.forEach((dot, i) => {
-    dot.classList.toggle('active', i === index);
-  });
-}
-function autoSlide() {
-  currentIndex = (currentIndex + 1) % slides.length;
-  updateSlider(currentIndex);
-}
-
-dots.forEach((dot, index) => {
-  dot.addEventListener('click', () => {
-    currentIndex = index;
-    updateSlider(currentIndex);
-  });
-});
-
-setInterval(autoSlide, 7500); 
-
-updateSlider(currentIndex);
